@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, navigate } from 'gatsby'
-import { Header } from '../components/Header/Header';
 import { Layout } from '../components/Layout/Layout';
+import { Button } from '@material-ui/core'
 
 export default function Home() {
     return (
@@ -10,7 +10,7 @@ export default function Home() {
             hello world {' '}
             <Link to='/about'>About </Link>
             <br/>
-            <button onClick={() => navigate('about')}>About with Button</button>
+            <Button onClick={() => navigate('about')}>About with Button</Button>
             </Layout>
         </div>
     )
