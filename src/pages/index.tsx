@@ -11,6 +11,8 @@ export default function Home() {
             <Link to='/about'>About </Link>
             <br/>
             <Button onClick={() => navigate('about')}>About with Button</Button>
+            <Button onClick={() => navigate('add')}>Add with Button</Button>
+
             </Layout>
         </div>
     )
